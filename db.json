@@ -1,0 +1,18 @@
+{
+  "usuarios": [
+    {
+      "userID": 1,
+      "favoritos": {
+        "produtos": [{ "id": 1, "nome": "Rayman", "loja": "Americanas" }],
+        "lojas": [{ "id": 1, "name": "Americanas" }]
+      }
+    },
+    {
+      "userID": 2,
+      "favoritos": {
+        "produtos": [{ "id": 1, "nome": "Zelda", "loja": "Nintendo" }],
+        "lojas": [{ "id": 1, "name": "Americanas" }]
+      }
+    }
+  ]
+}
