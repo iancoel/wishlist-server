@@ -3,80 +3,78 @@
     {
       "id": 1,
       "userID": 1,
-      "favoritos": {
-        "produtos": [
-          {
-            "id": 1,
-            "nome": "Rayman",
-            "imgSource": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com.br%2FUbisoft-UB000021XB1-Rayman-Origins-Xbox%2Fdp%2FB07772LDTP&psig=AOvVaw3APePEAy30VmFbVkTxtmyx&ust=1639749915821000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMisq8y-6PQCFQAAAAAdAAAAABAD",
-            "descriptionText": "Rayman é legal",
-            "loja": "Americanas",
-            "price": 80,
-            "discount": 20
-          },
-          {
-            "id": 2,
-            "nome": "The Legend of Zelda",
-            "imgSource": "https://cdna.artstation.com/p/assets/images/images/030/557/206/large/ricardo-cavalera-img-20200924-111132.jpg?1600956734",
-            "descriptionText": "Zelda também é legal",
-            "loja": "Nintendo",
-            "price": 180,
-            "discount": 0
-          },
-          {
-            "id": 3,
-            "nome": "Human: Fall Flat",
-            "imgSource": "https://assets.nuuvem.com/image/upload/t_banner_big/v1/products/58409a1b16d2c3736d00428f/banners/tyfyweni0nwjdzfohmtk.jpg",
-            "descriptionText": "Human: Fall Flat é um jogo de quebra-cabeças baseado em física, em que você toma o controle do construtor Bob ajudando-o a resolver os mistérios por trás de seus sonhos recorrentes de queda.",
-            "loja": "Nuuvem",
-            "price": 38,
-            "discount": 66
-          },
-          {
-            "id": 4,
-            "nome": "Elden Ring",
-            "imgSource": "https://assets.nuuvem.com/image/upload/t_banner_big/v1/products/618418052f91a002e3f9cf6b/banners/i4xf0i7nrytbipkvwgmn.jpg",
-            "descriptionText": "Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias.",
-            "loja": "Nuuvem",
-            "price": 250,
-            "discount": 0
-          },
-          {
-            "id": 5,
-            "nome": "Destiny 2",
-            "imgSource": "https://assets.nuuvem.com/image/upload/t_banner_big/v1/products/613261bbcb6e161b0a47c418/banners/ndxabd00qmnehfxwavpd.jpg",
-            "descriptionText": "Mergulhe no mundo-trono de Savathûn e descubra como ela e sua ninhada luzente se apoderaram da Luz. Descubra como criar nova armas, o novo gládio, e sobreviva à verdade em sua rede de mentiras.",
-            "loja": "Nuuvem",
-            "price": 75,
-            "discount": 0
-          },
-          {
-            "id": 6,
-            "nome": "Big Brain Academy™: Brain vs. Brain",
-            "imgSource": "https://assets.nuuvem.com/image/upload/t_banner_big/v1/products/61af9b16eb1f400017c954f6/banners/tshglqirus4iql3hy1px.jpg",
-            "descriptionText": "Participe de uma série de atividades de dobrar o cérebro que testam sua coragem mental em Big Brain Academy ™: Brain vs. Brain para o sistema Nintendo Switch ™! Desempenhe uma ampla variedade de atividades, como memorizar uma série de números, identificar um animal conforme ele entra lentamente em foco ou ajudar a guiar um trem até seu objetivo em atividades divertidas e rápidas.",
-            "loja": "Nuuvem",
-            "price": 149,
-            "discount": 0
-          },
-          {
-            "id": 7,
-            "nome": "This Is the President",
-            "imgSource": "https://assets.nuuvem.com/image/upload/t_banner_big/v1/products/61af97a7945da1001746bda8/banners/xhh7nvb2affvcrbvwcml.jpg",
-            "descriptionText": "This Is the President é um jogo de gerenciamento com foco narrativo. Em 2020, você, um empresário multimilionário, é eleito presidente dos Estados Unidos. Agora, para não pagar pelos crimes que cometeu no passado, você precisa ratificar a 28ª Emenda, que concede imunidade vitalícia a qualquer presidente.",
-            "loja": "Nuuvem",
-            "price": 29,
-            "discount": 20
-          }
-        ],
-        "lojas": [
-          { "id": 1, "name": "Americanas" },
-          { "id": 2, "name": "Nuuvem" },
-          { "id": 3, "name": "Nintendo" },
-          { "id": 4, "name": "Amazon" },
-          { "id": 5, "name": "Steam" }
-        ]
-      }
+      "produtosFavoritos": [
+        {
+          "id": 1,
+          "nome": "Rayman",
+          "imgSource": "https://www.google.com/url?sa=i&url=https%3A%2F%2Fwww.amazon.com.br%2FUbisoft-UB000021XB1-Rayman-Origins-Xbox%2Fdp%2FB07772LDTP&psig=AOvVaw3APePEAy30VmFbVkTxtmyx&ust=1639749915821000&source=images&cd=vfe&ved=0CAsQjRxqFwoTCMisq8y-6PQCFQAAAAAdAAAAABAD",
+          "descriptionText": "Rayman é legal",
+          "loja": "Americanas",
+          "price": 80,
+          "discount": 20
+        },
+        {
+          "id": 2,
+          "nome": "The Legend of Zelda",
+          "imgSource": "https://cdna.artstation.com/p/assets/images/images/030/557/206/large/ricardo-cavalera-img-20200924-111132.jpg?1600956734",
+          "descriptionText": "Zelda também é legal",
+          "loja": "Nintendo",
+          "price": 180,
+          "discount": 0
+        },
+        {
+          "id": 3,
+          "nome": "Human: Fall Flat",
+          "imgSource": "https://assets.nuuvem.com/image/upload/t_banner_big/v1/products/58409a1b16d2c3736d00428f/banners/tyfyweni0nwjdzfohmtk.jpg",
+          "descriptionText": "Human: Fall Flat é um jogo de quebra-cabeças baseado em física, em que você toma o controle do construtor Bob ajudando-o a resolver os mistérios por trás de seus sonhos recorrentes de queda.",
+          "loja": "Nuuvem",
+          "price": 38,
+          "discount": 66
+        },
+        {
+          "id": 4,
+          "nome": "Elden Ring",
+          "imgSource": "https://assets.nuuvem.com/image/upload/t_banner_big/v1/products/618418052f91a002e3f9cf6b/banners/i4xf0i7nrytbipkvwgmn.jpg",
+          "descriptionText": "Levante-se, Maculado, e seja guiado pela graça para portar o poder do Anel Prístino e se tornar um Lorde Prístino nas Terras Intermédias.",
+          "loja": "Nuuvem",
+          "price": 250,
+          "discount": 0
+        },
+        {
+          "id": 5,
+          "nome": "Destiny 2",
+          "imgSource": "https://assets.nuuvem.com/image/upload/t_banner_big/v1/products/613261bbcb6e161b0a47c418/banners/ndxabd00qmnehfxwavpd.jpg",
+          "descriptionText": "Mergulhe no mundo-trono de Savathûn e descubra como ela e sua ninhada luzente se apoderaram da Luz. Descubra como criar nova armas, o novo gládio, e sobreviva à verdade em sua rede de mentiras.",
+          "loja": "Nuuvem",
+          "price": 75,
+          "discount": 0
+        },
+        {
+          "id": 6,
+          "nome": "Big Brain Academy™: Brain vs. Brain",
+          "imgSource": "https://assets.nuuvem.com/image/upload/t_banner_big/v1/products/61af9b16eb1f400017c954f6/banners/tshglqirus4iql3hy1px.jpg",
+          "descriptionText": "Participe de uma série de atividades de dobrar o cérebro que testam sua coragem mental em Big Brain Academy ™: Brain vs. Brain para o sistema Nintendo Switch ™! Desempenhe uma ampla variedade de atividades, como memorizar uma série de números, identificar um animal conforme ele entra lentamente em foco ou ajudar a guiar um trem até seu objetivo em atividades divertidas e rápidas.",
+          "loja": "Nuuvem",
+          "price": 149,
+          "discount": 0
+        },
+        {
+          "id": 7,
+          "nome": "This Is the President",
+          "imgSource": "https://assets.nuuvem.com/image/upload/t_banner_big/v1/products/61af97a7945da1001746bda8/banners/xhh7nvb2affvcrbvwcml.jpg",
+          "descriptionText": "This Is the President é um jogo de gerenciamento com foco narrativo. Em 2020, você, um empresário multimilionário, é eleito presidente dos Estados Unidos. Agora, para não pagar pelos crimes que cometeu no passado, você precisa ratificar a 28ª Emenda, que concede imunidade vitalícia a qualquer presidente.",
+          "loja": "Nuuvem",
+          "price": 29,
+          "discount": 20
+        }
+      ],
+      "lojasFavoritas": [
+        { "id": 1, "name": "Americanas" },
+        { "id": 2, "name": "Nuuvem" },
+        { "id": 3, "name": "Nintendo" },
+        { "id": 4, "name": "Amazon" },
+        { "id": 5, "name": "Steam" }
+      ]
     }
   ]
 }
