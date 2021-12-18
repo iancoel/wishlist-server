@@ -73,7 +73,8 @@
         { "id": 2, "name": "Nuuvem" },
         { "id": 3, "name": "Nintendo" },
         { "id": 4, "name": "Amazon" },
-        { "id": 5, "name": "Steam" }
+        { "id": 5, "name": "Steam" },
+        { "id": 999, "name": "A demolir" }
       ]
     }
   ]
